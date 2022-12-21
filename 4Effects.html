@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(
+           function(){
+               $('button').click(function(){
+                //normalfadeIn
+                //    $('div').fadeIn(3000)
+                   //2to fade slow use below
+                //    $('#div1').fadeIn('slow')
+
+                 //3to fade with 3 secs buffer
+                //  $('#div1').fadeIn(3000)
+//Fade out
+//normal fadeout
+                //    $('div').fadeOut()
+//slow fade out
+// $('div').fadeOut('slow')
+//fade out with 3 seconds buffer
+$('div').fadeOut(3000)
+
+
+               })
+           }
+        )
+       </script>
+</head>
+<body>  
+    <button>click here</button> <br><br>
+    <!-- for fade in -->
+    <!-- <div style="width: 80px; height:80px;display:none;background-color:red"></div> <br> -->
+    <!-- for fade out -->
+    <div style="width: 80px; height:80px;background-color:red"></div> <br>
+
+</html>
